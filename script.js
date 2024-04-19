@@ -139,7 +139,7 @@ const loadDataFromLocalstorage = () => {
 
   const defaultText = `<div class="default-text">
                             <h1>GDSC SOU</h1>
-                            <p>Start a conversation and explore GDSC SOU.<br> Your chat history will be displayed here.</p>
+                            <p>A chatbot by Chauhan Yuvraj.<br> Your chat history will be displayed here.</p>
                         </div>`
 
   chatContainer.innerHTML = localStorage.getItem("all-chats") || defaultText;
